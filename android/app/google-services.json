@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "729664463444",
+    "project_id": "mbarete-padel",
+    "storage_bucket": "mbarete-padel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729664463444:android:dd94d876d06263e4c7c3c1",
+        "android_client_info": {
+          "package_name": "com.mbarete.padel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729664463444-re6h403q2o40ctc4fg5hro8e3tcg0f23.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mbarete.padel",
+            "certificate_hash": "b46c6e70b783b302cc12e12975b2b703fc282994"
+          }
+        },
+        {
+          "client_id": "729664463444-ulv74lin78tmq2qma0s7p348lk0anc70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7iX1cipnMZdhXTrbLjwXVWR2kWF6yl_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729664463444-ulv74lin78tmq2qma0s7p348lk0anc70.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "729664463444-1r2tdj9ttj30mdk9fq2154d7bhqf4ss4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mbaretePadel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
