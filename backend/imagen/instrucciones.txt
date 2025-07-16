@@ -1,5 +1,0 @@
-docker build --tag=mbarete-app:latest .
-
-docker run -p8887:8080 mbarete-app:latest
-
-docker-compose up --build
