@@ -1,0 +1,68 @@
+Usuarios
+Local
+	id_local
+	nombre
+	direccion
+	num_telefono
+	descripcion
+	
+Cancha
+	id_cancha
+	id_local
+	precio
+	descripcion
+	foto
+	
+Productos
+	id_producto
+	nombre
+	marca
+	foto
+	descripcion
+
+Local_Productos
+	id_local
+	id_producto
+	stock
+	precio
+Horarios
+	id_horario
+	id_local
+	dia
+	hora_inicio
+	hora_fin
+Feriados
+	id_local
+	fecha
+Reservas
+	id_reserva
+	id_local
+	id_cancha
+	fecha
+	hora_inicio
+	hora_fin
+	estado_pago
+	dia
+	id_usuario_reserva
+	
+Reservas_Usuarios
+	id_reserva
+	usuario
+	id_usuario
+	
+Reservas_Productos
+	id_reserva
+	id_producto
+	cantidad
+	
+Cancelaciones
+	id_cancelacion
+	id_reserva
+	id_local
+	id_cancha
+	fecha
+	hora_inicio
+	hora_fin
+	estado_pago
+	dia
+	id_usuario_reserva
